@@ -1,12 +1,10 @@
 <script lang="ts">
-  let x: string = "hello world";
+  import YoutubeFrame from "./lib/YoutubeFrame.svelte";
 </script>
 
 <main>
   <div>
-    <h1>VidLib</h1>
-
-    Collect the videos you like!
+    <YoutubeFrame videoId="8Fow61Zsn2s" />
   </div>
 </main>
 
